@@ -3,9 +3,23 @@
   "version": "1.0.0",
   "description": "自定义vue项目创建的方式",
   "main": "index.js",
+  "bin": {
+    "bue": "./src/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "liuyu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyu00/bue-cli.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "bugs": {
+    "url": "https://github.com/liuyu00/bue-cli/issues"
+  },
+  "homepage": "https://github.com/liuyu00/bue-cli#readme"
 }
